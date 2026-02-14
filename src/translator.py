@@ -24,7 +24,7 @@ def translate_sentence(italian_sentence):
         },
     ]
 
-    response = client.chat(MODEL_NAME, messages=template_message, stream=False)
+    response = client.chat(MODEL_NAME, messages=template_message, stream=False, keep_alive="1h")
     return response.message.content
 
 
