@@ -1,0 +1,8 @@
+model_name: translategemma:4b
+source:
+  lang: italian
+  code: it
+target:
+  lang: english
+  code: en
+
