@@ -69,3 +69,5 @@ target:
 ```
 python main.py
 ```
+
+![UI example](images/example.png)
